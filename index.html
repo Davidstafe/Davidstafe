@@ -1,75 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>David Stafe – Portfolio</title>
   <link rel="stylesheet" href="style.css">
- 
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<header>
-    <img src="img/mi-foto.jpg" class="profile-photo" />
-  <h1>David Stafe</h1>
-  <h3>Self-Taught Web Developer & Technical Assistant</h3>
-</header>
+  <header class="header">
+    <img src="img/mi-foto.jpg" alt="Foto de David Stafe" class="profile-photo" />
+    <div class="info">
+      <h1>David Stafe</h1>
+      <h3>Self-Taught Web Developer & Technical Assistant</h3>
+    </div>
+  </header>
 
-<section>
-  <h2>About Me / Sobre mí</h2>
-  <p>
-    👋 Hi! I'm David, a self-taught developer from Argentina. I build responsive websites using HTML, CSS, JavaScript, and GitHub. I'm currently working on personal projects to improve my skills and help others.
-  </p>
-  <p>
-    👋 ¡Hola! Soy David, un desarrollador autodidacta de Argentina. Creo sitios web responsivos con HTML, CSS, JavaScript y GitHub. Actualmente desarrollo proyectos personales para mejorar mis habilidades y ayudar a otros.
-  </p>
-</section>
+  <main class="projects">
 
-<section>
-  <h2>Skills / Habilidades</h2>
-  <ul>
-    <li>HTML5, CSS3, JavaScript</li>
-    <li>Responsive Design</li>
-    <li>Git & GitHub</li>
-    <li>Bootstrap, Flexbox, Grid</li>
-    <li>Web Deployment (GitHub Pages)</li>
-  </ul>
-</section>
-<section>
-  <h2>Certificates / Certificados</h2>
-  <ul class="cert-list">
-    <li>🎓 Full Stack Developer – Universidad de La Punta</li>
-    <li>🎨 Diseño Gráfico – ICR -Santa Fe</li>
-    <li>🧠 Inteligencia Artificial – Google: Inteligencia artificial y productividad- Santander</li>
-    <li>📖 Storytelling en Marketing Digital – Santander Open Academy (contenido: Universidad de Chicago)</li>
-    <li>🌐 Curso de JavaScript – Ademass(Training Development)</li>
-    
-  </ul>
-</section>
+    <section class="card">
+      <h2>About Me / Sobre mí</h2>
+      <p>
+        👋 Hi! I'm David, a self-taught developer from Argentina. I build responsive websites using HTML, CSS, JavaScript, and GitHub. I'm currently working on personal projects to improve my skills and help others.
+      </p>
+      <p>
+        👋 ¡Hola! Soy David, un desarrollador autodidacta de Argentina. Creo sitios web responsivos con HTML, CSS, JavaScript y GitHub. Actualmente desarrollo proyectos personales para mejorar mis habilidades y ayudar a otros.
+      </p>
+    </section>
 
-<section>
-  <h2>Projects / Proyectos</h2>
+    <section class="card">
+      <h2>Skills / Habilidades</h2>
+      <ul>
+        <li>HTML5, CSS3, JavaScript</li>
+        <li>Responsive Design</li>
+        <li>Git & GitHub</li>
+        <li>Bootstrap, Flexbox, Grid</li>
+        <li>Web Deployment (GitHub Pages)</li>
+      </ul>
+    </section>
 
-  <div class="project">
-    <h3>📄 CV Web (Diseñado para una empresa)</h3>
-    <p>Landing page responsive que presenta mi perfil profesional como CV online.</p>
-    <a href="https://davidstafe.github.io/cv-Web.gitHub/" target="_blank">🔗 Ver proyecto</a> |
-    <a href="https://github.com/Davidstafe/cv-Web.gitHub" target="_blank">💻 Código</a>
-  </div>
+    <section class="card">
+      <h2>Certificates / Certificados</h2>
+      <ul class="cert-list">
+        <li>🎓 Full Stack Developer – Universidad de La Punta</li>
+        <li>🎨 Diseño Gráfico – ICR - Santa Fe</li>
+        <li>🧠 Inteligencia Artificial – Google + Santander</li>
+        <li>📖 Storytelling – Santander Open Academy + U. de Chicago</li>
+        <li>🌐 Curso de JavaScript – Ademass</li>
+      </ul>
+    </section>
 
-  <div class="project">
-    <h3>📚 Biblioteca – Gestor de Libros</h3>
-    <p>Aplicación web para registrar libros leídos. Construido con HTML, CSS y JavaScript.</p>
-    <a href="https://davidstafe.github.io/biblioteca/" target="_blank">🔗 Ver proyecto</a> |
-    <a href="https://github.com/Davidstafe/biblioteca" target="_blank">💻 Código</a>
-  </div>
-</section>
+    <section>
+      <h2>Projects / Proyectos</h2>
 
-<section>
-  <h2>Contact / Contacto</h2>
-  <p>📩 Email: <a href="mailto:david.ruizmoreno.dev@gmail.com">david.ruizmoreno.dev@gmail.com</a></p>
-  <a href="mailto:david.fmdrm@gmail.com" class="contact-btn">📧 Enviar correo</a>
-</section>
+      <div class="card">
+        <h3>📄 CV Web (Diseñado para una empresa)</h3>
+        <p>Landing page responsive que presenta mi perfil profesional como CV online.</p>
+        <a href="https://davidstafe.github.io/cv-Web.gitHub/" target="_blank">🔗 Ver proyecto</a> |
+        <a href="https://github.com/Davidstafe/cv-Web.gitHub" target="_blank">💻 Código</a>
+      </div>
+
+      <div class="card">
+        <h3>📚 Biblioteca – Gestor de Libros</h3>
+        <p>Aplicación web para registrar libros leídos. Construido con HTML, CSS y JavaScript.</p>
+        <a href="https://davidstafe.github.io/biblioteca/" target="_blank">🔗 Ver proyecto</a> |
+        <a href="https://github.com/Davidstafe/biblioteca" target="_blank">💻 Código</a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Contact / Contacto</h2>
+      <p>📩 Email: <a href="mailto:david.ruizmoreno.dev@gmail.com">david.ruizmoreno.dev@gmail.com</a></p>
+      <a href="mailto:david.fmdrm@gmail.com" class="contact-btn">📧 Enviar correo</a>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 David Stafe – Todos los derechos reservados.</p>
+  </footer>
 
 </body>
 </html>
